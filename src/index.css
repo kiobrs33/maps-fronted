@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mapContainer {
+  background: linear-gradient(to right, #373b44, #4286f4);
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mapbox {
+  margin: 10px;
+}
+
+.coords {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.info {
+  font-size: 12px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background: linear-gradient(to right, #7b4397, #dc2430);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
